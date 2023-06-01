@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Главная</title>
+</head>
+    <body>
+      <header>
+ 
+</header> 
+    <main class="main">
+      <div class="form-wrapper">
+        <form action="" method="post">
+
+          <label for="username">
+            Username
+            <input type="text" name="username" id="username" placeholder="Enter username">
+          </label>
+
+          <label for="password">
+            Password
+            <input  type="text" name="password" id="password" placeholder="Enter password"/>
+            <p class="input-informing">Your password is between 4 and 12 characters</p>
+          </label>
+
+          <label for="textInput">
+            Input Text Label
+            <input type="text" name="textInput" id="textInput" placeholder="Type here">
+            <p id="assistiveText" class="input-informing">Error message informing me of a problem</p>
+          </label>
+          
+            <input type="checkbox"name="checkbox" id="checkbox"> 
+            <label for="checkbox" tabindex="0">Remember me</label>
+          
+            <input type="checkbox" name="toggle" id="toggle">
+            <label for="toggle" tabindex="0">Off</label>
+
+            <input type="radio" id="radioSelection1" name="radioSelection" value="radioSelection1">
+            <label for="radioSelection1" tabindex="0">Radio selection 1</label>
+           
+            <input type="radio" id="radioSelection2" name="radioSelection" value="radio Selection 2">
+            <label for="radioSelection2" tabindex="0">Radio selection 2</label>
+
+            <input type="radio" id="radioSelection3" name="radioSelection" value="radio Selection3">
+            <label for="radioSelection3" tabindex="0">Radio selection 3</label>
+
+           <div class="custom-select">
+            <p>Dropdown Title</p>
+            <select name="dropdowns" title="dropdowns">  
+              <option value="Dropdown option" tabindex="0">Dropdown option</option>
+              <option value="Dropdown option" tabindex="0">Dropdown option</option>
+              <option value="Dropdown option 2" tabindex="0">Dropdown option 2</option>
+              <option value="Dropdown option 3" tabindex="0">Dropdown option 3</option>
+            </select>
+           </div>
+           
+           <div class="cta">
+            <button type="button" name="cancel">Cancel</button>
+            <button type="submit" name="next" id="next">Next</button>
+           </div>
+        </form>
+      </div>
+
+    </main>
+      <footer></footer>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      <script src="js/app.min.js"></script>
+    </body>
+</html>
